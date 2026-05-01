@@ -3,6 +3,8 @@
 A simple and interactive To-Do application built with HTML, CSS, and JavaScript.  
 This project allows users to add and delete tasks dynamically using DOM manipulation.
 
+<img width="1302" height="626" alt="image" src="https://github.com/user-attachments/assets/d7a054cd-dd33-49d1-81c9-9327d5cd880a" />
+
 #### 🚀 Features
 - Add new tasks
 - Delete existing tasks
