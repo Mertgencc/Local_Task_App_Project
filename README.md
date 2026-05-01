@@ -3,6 +3,8 @@
 A simple and interactive To-Do application built with HTML, CSS, and JavaScript.  
 This project allows users to add and delete tasks dynamically using DOM manipulation.
 
+<img src="https://raw.githubusercontent.com/Mertgencc/Local_To-Do_App_Project/main/images/todo.jpg" />
+
 #### 🚀 Features
 - Add new tasks
 - Delete existing tasks
