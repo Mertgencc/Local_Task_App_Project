@@ -1,7 +1,7 @@
 body {
   font-family: Arial;
   text-align: center;
-  background-color: #f4f4f4;
+  background-color: #14213d;
 }
 
 input {
@@ -26,4 +26,27 @@ li {
   width: 300px;
   display: flex;
   justify-content: space-between;
+}
+
+.alert-info{
+  color: #14213d;
+}
+
+#textInput{
+  margin-right: 0.5rem;
+}
+
+#button-addon2{
+  color: white;
+    background-color: #fca311;
+    padding-left: 1rem;
+}
+
+#button-addon2:hover{
+  background-color: #e5e5e5;
+  color: black;
+}
+
+h1{
+  color: #fca311;
 }
