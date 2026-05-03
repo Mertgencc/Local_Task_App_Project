@@ -1,52 +1,149 @@
 body {
-  font-family: Arial;
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(135deg, #0f172a, #1e293b);
+  margin: 0;
+  min-height: 100vh;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* alert */
+.alert-info {
+  background: #1e293b;
+  color: #94a3b8;
+  border: none;
+
+  width: 100%;
+  max-width: 600px;
+  margin-top: 20px;
+
+  border-radius: 12px;
   text-align: center;
-  background-color: #14213d;
 }
 
-input {
-  padding: 10px;
-  width: 200px;
+/* başlık */
+h1 {
+  color: #fca311;
+  margin-top: 10px;
+  font-weight: 700;
+  letter-spacing: 1px;
 }
 
-button {
-  padding: 10px;
+/* container */
+.container {
+  width: 100%;
+  max-width: 600px;
+  margin-top: 20px;
+}
+
+/* input group kart */
+.input-group {
+  background: #1e293b;
+  padding: 15px;
+
+  border-radius: 14px;
+
+  box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+}
+
+/* input */
+#textInput {
+  border: none;
+  border-radius: 10px !important;
+
+  padding: 12px;
+
+  outline: none;
+  background: #0f172a;
+  color: white;
+}
+
+/* focus */
+#textInput:focus {
+  box-shadow: 0 0 0 0.2rem rgba(252,163,17,0.2);
+}
+
+/* button */
+#button-addon2 {
+  background: #fca311;
+  color: #0f172a;
+
+  border: none;
+  border-radius: 10px;
+
+  padding: 0 20px;
+
+  font-weight: 600;
+  transition: 0.2s;
+}
+
+#button-addon2:hover {
+  background: #e59400;
+  transform: translateY(-2px);
+}
+
+/* card */
+.card {
+  background: #1e293b;
+  border: none;
+  border-radius: 16px;
+
+  margin-top: 20px;
+
+  box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+}
+
+/* list */
+ul {
+  padding: 0;
+  margin: 0;
+}
+
+/* item */
+li {
+  list-style: none;
+
+  background: #0f172a;
+  color: white;
+
+  margin: 10px;
+  padding: 12px 14px;
+
+  border-radius: 12px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  transition: 0.2s;
+}
+
+li:hover {
+  transform: translateY(-2px);
+  background: #111c33;
+}
+
+/* sil butonu */
+li button {
+  background: #ef4444;
+  border: none;
+
+  color: white;
+  padding: 6px 10px;
+
+  border-radius: 8px;
+  font-size: 12px;
+
   cursor: pointer;
 }
 
-ul {
-  list-style: none;
-  padding: 0;
+li button:hover {
+  background: #dc2626;
 }
 
-li {
-  background: white;
-  margin: 5px auto;
-  padding: 10px;
-  width: 300px;
-  display: flex;
-  justify-content: space-between;
-}
-
-.alert-info{
-  color: #14213d;
-}
-
-#textInput{
-  margin-right: 0.5rem;
-}
-
-#button-addon2{
-  color: white;
-    background-color: #fca311;
-    padding-left: 1rem;
-}
-
-#button-addon2:hover{
-  background-color: #e5e5e5;
-  color: black;
-}
-
-h1{
-  color: #fca311;
+/* bootstrap override küçük fix */
+.btn-outline-secondary {
+  border: none !important;
 }

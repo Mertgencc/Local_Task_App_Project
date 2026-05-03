@@ -61,7 +61,7 @@ function renderTasks(){
 
         // Yeni bir liste elemanı oluşturuyoruz.
 
-        li.textContent = "task";
+        li.textContent = task;
 
         // görevin yazısını li içine koyuyoruz.
 
